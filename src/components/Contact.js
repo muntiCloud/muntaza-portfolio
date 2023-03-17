@@ -1,11 +1,13 @@
 // src/components/Contact.js
 
 import React from "react";
+import Styles from "./Styles.css";
 
 export default function Contact() {
   const [name, setName] = React.useState("");
   const [email, setEmail] = React.useState("");
   const [message, setMessage] = React.useState("");
+  
 
   function encode(data) {
     return Object.keys(data)
