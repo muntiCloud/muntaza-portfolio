@@ -2,7 +2,6 @@
 
 import { ArrowRightIcon } from "@heroicons/react/solid";
 import React from "react";
-import Styles from "./Styles.css";
 
 export default function Navbar() {
   return (
